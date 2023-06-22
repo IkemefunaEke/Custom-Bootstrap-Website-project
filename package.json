@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "A website created using Bootstrap and Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "sass --watch scss:sassfiles/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Sass"
+  ],
+  "author": "Ikemefuna Eke",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss-cli": "^10.1.0"
+  }
+}
